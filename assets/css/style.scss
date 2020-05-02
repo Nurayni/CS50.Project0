@@ -544,10 +544,9 @@
             }
             
             @media (max-width: 575.98px) {
-                .second-wrapper .feature-list-img img {
-                    position: relative;
-                    left: 2%;
-                    /* transform: translateX(-50%); */
+                .second-wrapper .feature-list-img {
+                    width: fit-content;
+                    margin: 0 auto;
                 }
                 .main-wrapper .food-text ul {
                     font-size: 12px;
