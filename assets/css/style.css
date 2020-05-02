@@ -278,8 +278,7 @@ p {
 }
 
 .second-wrapper .feature-list-img img {
-  width: auto;
-  height: 185px;
+  width: 100%;
   margin-bottom: 30px;
 }
 
