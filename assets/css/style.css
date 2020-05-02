@@ -244,6 +244,7 @@ p {
 
 .second-wrapper h1 {
   color: #fff;
+  margin-bottom: 30px;
 }
 
 .second-wrapper .arrow-top-shape {
@@ -659,7 +660,7 @@ p {
     font-size: 10px;
   }
   h1 {
-    font-size: 2.1rem;
+    font-size: 25px;
   }
   .footer .copyright-text {
     margin-bottom: 22px;
@@ -669,10 +670,22 @@ p {
   }
   .h4,
   h4 {
-    font-size: 1.3rem;
+    font-size: 20px;
   }
   #blog .btn-link {
     bottom: 22px;
+  }
+  .about-wrapper h2 {
+    font-size: 24px;
+  }
+  .about-wrapper .btn-read {
+    font-size: 10px;
+  }
+  #contact .section-title .title {
+    font-size: 24px;
+  }
+  #blog .section-title .title {
+    font-size: 35px;
   }
 }
 /*# sourceMappingURL=style.css.map */
