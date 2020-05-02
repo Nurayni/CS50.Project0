@@ -184,6 +184,10 @@ p {
   margin-bottom: 20px;
 }
 
+.main-wrapper .food-text h1 span {
+  color: #ff740f;
+}
+
 .main-wrapper .food-text ul {
   font-size: 16px;
   font-weight: 400;
@@ -618,6 +622,9 @@ p {
 }
 
 @media (max-width: 575.98px) {
+  h3.feature-title {
+    font-size: 22px;
+  }
   .second-wrapper .feature-list-img {
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -649,9 +656,10 @@ p {
   }
   .main-wrapper .food-text .mybtn {
     margin-bottom: 40px;
+    font-size: 10px;
   }
   h1 {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
   }
   .footer .copyright-text {
     margin-bottom: 22px;

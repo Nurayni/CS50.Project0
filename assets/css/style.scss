@@ -159,6 +159,9 @@
                         font-weight: 700;
                         color: #fff;
                         margin-bottom: 20px;
+                        span {
+                            color: #ff740f;
+                        }
                     }
                     ul {
                         font-size: 16px;
@@ -543,6 +546,9 @@
             }
             
             @media (max-width: 575.98px) {
+                h3.feature-title {
+                    font-size: 22px;
+                }
                 .second-wrapper .feature-list-img {
                     width: fit-content;
                     margin: 0 auto;
@@ -574,11 +580,12 @@
                     .food-text {
                         .mybtn {
                             margin-bottom: 40px;
+                            font-size: 10px;
                         }
                     }
                 }
                 h1 {
-                    font-size: 2.2rem;
+                    font-size: 2.1rem;
                 }
                 .footer .copyright-text {
                     margin-bottom: 22px;
