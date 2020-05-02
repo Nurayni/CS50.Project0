@@ -10,6 +10,7 @@
             font-size: 14px;
             color: #969696;
             overflow-x: hidden;
+            scroll-behavior: smooth;
         }
         
         $button-color:#FF740F;
@@ -48,6 +49,16 @@
                 padding: 10px 0;
                 a {
                     color: #ffffff;
+                    transition: 0.3s ease;
+                    &:hover {
+                        color: #ff740f;
+                    }
+                }
+                i {
+                    transition: 0.3s ease;
+                    &:hover {
+                        color: #ff740f;
+                    }
                 }
                 .dropdown {
                     margin-right: 20px;
@@ -277,7 +288,15 @@
             padding: 30px 0px;
             background: #272727;
             .copyright-text {
-                margin: 0
+                margin: 0;
+                a {
+                    transition: 0.3s ease;
+                    color: #fff;
+                    &:hover {
+                        color: #ff740f;
+                        border-bottom: 1px solid #fff;
+                    }
+                }
             }
             @media (max-width:991px) {
                 .site-footer [class^=col-] {

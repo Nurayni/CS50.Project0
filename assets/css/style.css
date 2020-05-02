@@ -10,6 +10,7 @@ body {
   font-size: 14px;
   color: #969696;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -52,6 +53,21 @@ p {
 
 .header .topbar a {
   color: #ffffff;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.header .topbar a:hover {
+  color: #ff740f;
+}
+
+.header .topbar i {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.header .topbar i:hover {
+  color: #ff740f;
 }
 
 .header .topbar .dropdown {
@@ -314,6 +330,17 @@ p {
 
 .footer .copyright-text {
   margin: 0;
+}
+
+.footer .copyright-text a {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  color: #fff;
+}
+
+.footer .copyright-text a:hover {
+  color: #ff740f;
+  border-bottom: 1px solid #fff;
 }
 
 @media (max-width: 991px) {
