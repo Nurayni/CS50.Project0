@@ -100,11 +100,6 @@ p {
   color: #ffffff;
 }
 
-.header .container-fluid {
-  padding: 0 60px;
-  -webkit-box-align: initial;
-}
-
 .header .navbar-light {
   color: #ffffff;
   border-color: #eeeeee;
@@ -438,6 +433,7 @@ p {
   background-attachment: fixed;
   position: relative;
   z-index: 0;
+  padding: 39px 0px;
 }
 
 .about-wrapper::before {
@@ -454,10 +450,6 @@ p {
 
 .about-wrapper .dark-bg-opacity {
   background: #121212;
-}
-
-.about-wrapper .space-3 {
-  padding: 8rem 0;
 }
 
 .about-wrapper h2 {
@@ -486,6 +478,7 @@ p {
   letter-spacing: .7px;
   text-align: center;
   display: inline-block;
+  margin-bottom: 40px;
 }
 
 .about-wrapper .btn-read:hover {
@@ -626,16 +619,22 @@ p {
 }
 
 @media (max-width: 575.98px) {
+  a.btn-read {
+    margin-bottom: 30px;
+  }
+  .about-wrapper .letter-space-2 {
+    letter-spacing: .5rem;
+    line-height: 4.3;
+    font-size: 1.25rem;
+    color: #fff;
+    margin-bottom: 75px;
+  }
   .navbar-light .navbar-toggler {
     position: relative;
     left: 20px;
   }
   .navbar-brand img {
     left: 0% !important;
-  }
-  .header .container-fluid {
-    padding: 0 0px;
-    -webkit-box-align: initial;
   }
   .main-wrapper .food-text h1 {
     font-size: 35px;
